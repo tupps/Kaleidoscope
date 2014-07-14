@@ -38,11 +38,17 @@ static const CGFloat numberOfHexagonsDown = 7.0;
     [self createTriangleImageMask];
     [self createOneThirdOfHexagon];
     [self completeHexagon];
-    [self replicateHexagonsDown];
-    [self replicateDownHexagonsRight];
-    [self replicateRightHexagonsRight];
 
-    [self.view.layer addSublayer:hexRightReplicator2];
+    //Just display the single Kaleidscope hexagon
+    [self.view.layer addSublayer:hexReplication2];
+
+    //Call these if you want the screen covered in the Kaleidscope effect
+//    [self replicateHexagonsDown];
+//    [self replicateDownHexagonsRight];
+//    [self replicateRightHexagonsRight];
+//    [self.view.layer addSublayer:hexRightReplicator2]; full screen covered.
+
+
 }
 
 - (void) viewDidAppear:(BOOL)animated {
@@ -69,7 +75,11 @@ static const CGFloat numberOfHexagonsDown = 7.0;
 
 - (void) viewWillLayoutSubviews {
     [super viewWillLayoutSubviews];
-    hexRightReplicator2.frame = self.view.bounds;
+
+    hexReplication2.position = CGPointMake(triangleWidth, triangleHeight);
+
+//    //uncomment this for full screen effect
+//    hexRightReplicator2.frame = self.view.bounds;
 }
 
 #pragma mark - Image Setup
