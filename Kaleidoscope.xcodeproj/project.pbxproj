@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BD8721B19735A91009F9E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD8721A19735A91009F9E17 /* Foundation.framework */; };
+		0BD8721D19735A91009F9E17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD8721C19735A91009F9E17 /* CoreGraphics.framework */; };
+		0BD8721F19735A91009F9E17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD8721E19735A91009F9E17 /* UIKit.framework */; };
+		0BD8722519735A91009F9E17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BD8722319735A91009F9E17 /* InfoPlist.strings */; };
+		0BD8722719735A91009F9E17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8722619735A91009F9E17 /* main.m */; };
+		0BD8722B19735A91009F9E17 /* tppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8722A19735A91009F9E17 /* tppAppDelegate.m */; };
+		0BD8722E19735A91009F9E17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BD8722C19735A91009F9E17 /* Main.storyboard */; };
+		0BD8723119735A91009F9E17 /* tppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8723019735A91009F9E17 /* tppViewController.m */; };
+		0BD8723319735A91009F9E17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BD8723219735A91009F9E17 /* Images.xcassets */; };
+		0BD8723A19735A91009F9E17 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD8723919735A91009F9E17 /* XCTest.framework */; };
+		0BD8723B19735A91009F9E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD8721A19735A91009F9E17 /* Foundation.framework */; };
+		0BD8723C19735A91009F9E17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD8721E19735A91009F9E17 /* UIKit.framework */; };
+		0BD8724419735A92009F9E17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BD8724219735A92009F9E17 /* InfoPlist.strings */; };
+		0BD8724619735A92009F9E17 /* KaleidoscopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8724519735A92009F9E17 /* KaleidoscopeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BD8723D19735A91009F9E17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BD8720F19735A91009F9E17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BD8721619735A91009F9E17;
+			remoteInfo = Kaleidoscope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BD8721719735A91009F9E17 /* Kaleidoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaleidoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD8721A19735A91009F9E17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0BD8721C19735A91009F9E17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0BD8721E19735A91009F9E17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0BD8722219735A91009F9E17 /* Kaleidoscope-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kaleidoscope-Info.plist"; sourceTree = "<group>"; };
+		0BD8722419735A91009F9E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BD8722619735A91009F9E17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BD8722819735A91009F9E17 /* Kaleidoscope-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kaleidoscope-Prefix.pch"; sourceTree = "<group>"; };
+		0BD8722919735A91009F9E17 /* tppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tppAppDelegate.h; sourceTree = "<group>"; };
+		0BD8722A19735A91009F9E17 /* tppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tppAppDelegate.m; sourceTree = "<group>"; };
+		0BD8722D19735A91009F9E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BD8722F19735A91009F9E17 /* tppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tppViewController.h; sourceTree = "<group>"; };
+		0BD8723019735A91009F9E17 /* tppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tppViewController.m; sourceTree = "<group>"; };
+		0BD8723219735A91009F9E17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BD8723819735A91009F9E17 /* KaleidoscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaleidoscopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD8723919735A91009F9E17 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0BD8724119735A92009F9E17 /* KaleidoscopeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KaleidoscopeTests-Info.plist"; sourceTree = "<group>"; };
+		0BD8724319735A92009F9E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BD8724519735A92009F9E17 /* KaleidoscopeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaleidoscopeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BD8721419735A91009F9E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD8721D19735A91009F9E17 /* CoreGraphics.framework in Frameworks */,
+				0BD8721F19735A91009F9E17 /* UIKit.framework in Frameworks */,
+				0BD8721B19735A91009F9E17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD8723519735A91009F9E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD8723A19735A91009F9E17 /* XCTest.framework in Frameworks */,
+				0BD8723C19735A91009F9E17 /* UIKit.framework in Frameworks */,
+				0BD8723B19735A91009F9E17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD8720E19735A91009F9E17 = {
+			isa = PBXGroup;
+			children = (
+				0BD8722019735A91009F9E17 /* Kaleidoscope */,
+				0BD8723F19735A91009F9E17 /* KaleidoscopeTests */,
+				0BD8721919735A91009F9E17 /* Frameworks */,
+				0BD8721819735A91009F9E17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BD8721819735A91009F9E17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BD8721719735A91009F9E17 /* Kaleidoscope.app */,
+				0BD8723819735A91009F9E17 /* KaleidoscopeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BD8721919735A91009F9E17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BD8721A19735A91009F9E17 /* Foundation.framework */,
+				0BD8721C19735A91009F9E17 /* CoreGraphics.framework */,
+				0BD8721E19735A91009F9E17 /* UIKit.framework */,
+				0BD8723919735A91009F9E17 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BD8722019735A91009F9E17 /* Kaleidoscope */ = {
+			isa = PBXGroup;
+			children = (
+				0BD8722919735A91009F9E17 /* tppAppDelegate.h */,
+				0BD8722A19735A91009F9E17 /* tppAppDelegate.m */,
+				0BD8722C19735A91009F9E17 /* Main.storyboard */,
+				0BD8722F19735A91009F9E17 /* tppViewController.h */,
+				0BD8723019735A91009F9E17 /* tppViewController.m */,
+				0BD8723219735A91009F9E17 /* Images.xcassets */,
+				0BD8722119735A91009F9E17 /* Supporting Files */,
+			);
+			path = Kaleidoscope;
+			sourceTree = "<group>";
+		};
+		0BD8722119735A91009F9E17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BD8722219735A91009F9E17 /* Kaleidoscope-Info.plist */,
+				0BD8722319735A91009F9E17 /* InfoPlist.strings */,
+				0BD8722619735A91009F9E17 /* main.m */,
+				0BD8722819735A91009F9E17 /* Kaleidoscope-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BD8723F19735A91009F9E17 /* KaleidoscopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BD8724519735A92009F9E17 /* KaleidoscopeTests.m */,
+				0BD8724019735A92009F9E17 /* Supporting Files */,
+			);
+			path = KaleidoscopeTests;
+			sourceTree = "<group>";
+		};
+		0BD8724019735A92009F9E17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BD8724119735A92009F9E17 /* KaleidoscopeTests-Info.plist */,
+				0BD8724219735A92009F9E17 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BD8721619735A91009F9E17 /* Kaleidoscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BD8724919735A92009F9E17 /* Build configuration list for PBXNativeTarget "Kaleidoscope" */;
+			buildPhases = (
+				0BD8721319735A91009F9E17 /* Sources */,
+				0BD8721419735A91009F9E17 /* Frameworks */,
+				0BD8721519735A91009F9E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kaleidoscope;
+			productName = Kaleidoscope;
+			productReference = 0BD8721719735A91009F9E17 /* Kaleidoscope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BD8723719735A91009F9E17 /* KaleidoscopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BD8724C19735A92009F9E17 /* Build configuration list for PBXNativeTarget "KaleidoscopeTests" */;
+			buildPhases = (
+				0BD8723419735A91009F9E17 /* Sources */,
+				0BD8723519735A91009F9E17 /* Frameworks */,
+				0BD8723619735A91009F9E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BD8723E19735A91009F9E17 /* PBXTargetDependency */,
+			);
+			name = KaleidoscopeTests;
+			productName = KaleidoscopeTests;
+			productReference = 0BD8723819735A91009F9E17 /* KaleidoscopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BD8720F19735A91009F9E17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tpp;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Luke Tupper";
+				TargetAttributes = {
+					0BD8723719735A91009F9E17 = {
+						TestTargetID = 0BD8721619735A91009F9E17;
+					};
+				};
+			};
+			buildConfigurationList = 0BD8721219735A91009F9E17 /* Build configuration list for PBXProject "Kaleidoscope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BD8720E19735A91009F9E17;
+			productRefGroup = 0BD8721819735A91009F9E17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BD8721619735A91009F9E17 /* Kaleidoscope */,
+				0BD8723719735A91009F9E17 /* KaleidoscopeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BD8721519735A91009F9E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD8723319735A91009F9E17 /* Images.xcassets in Resources */,
+				0BD8722519735A91009F9E17 /* InfoPlist.strings in Resources */,
+				0BD8722E19735A91009F9E17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD8723619735A91009F9E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD8724419735A92009F9E17 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BD8721319735A91009F9E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD8723119735A91009F9E17 /* tppViewController.m in Sources */,
+				0BD8722719735A91009F9E17 /* main.m in Sources */,
+				0BD8722B19735A91009F9E17 /* tppAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD8723419735A91009F9E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD8724619735A92009F9E17 /* KaleidoscopeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BD8723E19735A91009F9E17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BD8721619735A91009F9E17 /* Kaleidoscope */;
+			targetProxy = 0BD8723D19735A91009F9E17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BD8722319735A91009F9E17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BD8722419735A91009F9E17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BD8722C19735A91009F9E17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BD8722D19735A91009F9E17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BD8724219735A92009F9E17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BD8724319735A92009F9E17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BD8724719735A92009F9E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0BD8724819735A92009F9E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BD8724A19735A92009F9E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kaleidoscope/Kaleidoscope-Prefix.pch";
+				INFOPLIST_FILE = "Kaleidoscope/Kaleidoscope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BD8724B19735A92009F9E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kaleidoscope/Kaleidoscope-Prefix.pch";
+				INFOPLIST_FILE = "Kaleidoscope/Kaleidoscope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0BD8724D19735A92009F9E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kaleidoscope.app/Kaleidoscope";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kaleidoscope/Kaleidoscope-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KaleidoscopeTests/KaleidoscopeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0BD8724E19735A92009F9E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kaleidoscope.app/Kaleidoscope";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kaleidoscope/Kaleidoscope-Prefix.pch";
+				INFOPLIST_FILE = "KaleidoscopeTests/KaleidoscopeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BD8721219735A91009F9E17 /* Build configuration list for PBXProject "Kaleidoscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD8724719735A92009F9E17 /* Debug */,
+				0BD8724819735A92009F9E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BD8724919735A92009F9E17 /* Build configuration list for PBXNativeTarget "Kaleidoscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD8724A19735A92009F9E17 /* Debug */,
+				0BD8724B19735A92009F9E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BD8724C19735A92009F9E17 /* Build configuration list for PBXNativeTarget "KaleidoscopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD8724D19735A92009F9E17 /* Debug */,
+				0BD8724E19735A92009F9E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BD8720F19735A91009F9E17 /* Project object */;
+}
